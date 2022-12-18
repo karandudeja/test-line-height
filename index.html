@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Test Line Height</title>
+</head>
+<body>
+    <p class="small-text">Font size; 16px</p>
+    <div id="test-1">
+        <p>Companies at Systemvetardagen,<br/> for &nbsp;<span id="y-text-1"> all types ↓ </span>&nbsp; studying at &nbsp;<span id="p-text-1" class="">&nbsp;all programs ↓ </span> &nbsp; and applying for &nbsp;<span id="b-text-1">&nbsp;all positions ↓&nbsp;</span></p>
+    </div>
+    <p class="small-text">above text, line height 32px</p>
+    
+    <div id="test-2">
+        <p>Companies at Systemvetardagen,<br/> for &nbsp;<span id="y-text-2"> all types ↓ </span>&nbsp; studying at &nbsp;<span id="p-text-2" class="">&nbsp;all programs ↓ </span> &nbsp; and applying for &nbsp;<span id="b-text-2">&nbsp;all positions ↓&nbsp;</span></p>
+    </div>
+    <p class="small-text">above text, line height 30px</p>
+
+    <div id="test-3">
+        <p>Companies at Systemvetardagen,<br/> for &nbsp;<span id="y-text-3"> all types ↓ </span>&nbsp; studying at &nbsp;<span id="p-text-3" class="">&nbsp;all programs ↓ </span> &nbsp; and applying for &nbsp;<span id="b-text-3">&nbsp;all positions ↓&nbsp;</span></p>
+    </div>
+    <p class="small-text">above text, line height 26px</p>
+    
+</body>
+
+<script>
+    document.getElementById("y-text-1")
+    .addEventListener("click", function(event) {
+        window.location.href = "yellow.html";
+        event.preventDefault();
+    });
+    document.getElementById("p-text-1")
+    .addEventListener("click", function(event) {
+        window.location.href = "pink.html";
+        event.preventDefault();
+    });
+    document.getElementById("b-text-1")
+    .addEventListener("click", function(event) {
+        window.location.href = "blue.html";
+        event.preventDefault();
+    });
+
+    document.getElementById("y-text-2")
+    .addEventListener("click", function(event) {
+        window.location.href = "yellow.html";
+        event.preventDefault();
+    });
+    document.getElementById("p-text-2")
+    .addEventListener("click", function(event) {
+        window.location.href = "pink.html";
+        event.preventDefault();
+    });
+    document.getElementById("b-text-2")
+    .addEventListener("click", function(event) {
+        window.location.href = "blue.html";
+        event.preventDefault();
+    });
+
+    document.getElementById("y-text-3")
+    .addEventListener("click", function(event) {
+        window.location.href = "yellow.html";
+        event.preventDefault();
+    });
+    document.getElementById("p-text-3")
+    .addEventListener("click", function(event) {
+        window.location.href = "pink.html";
+        event.preventDefault();
+    });
+    document.getElementById("b-text-3")
+    .addEventListener("click", function(event) {
+        window.location.href = "blue.html";
+        event.preventDefault();
+    });
+</script>
+</html>

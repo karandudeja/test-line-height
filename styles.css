@@ -1,0 +1,71 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+#test-1{
+    line-height: 32px;
+    display: flex;
+    margin-left: 16px;
+}
+
+#test-2{
+    line-height: 30px;
+    display: flex;
+    margin: 40px 0 0 16px;
+}
+
+#test-3{
+    line-height: 26px;
+    display: flex;
+    margin: 40px 0 0 16px;
+}
+
+#y-text-1{
+    text-decoration: underline;
+    background-color: #FFD47F;
+}
+
+#y-text-2{
+    text-decoration: underline;
+    background-color: #FFD47F;
+}
+
+#y-text-3{
+    text-decoration: underline;
+    background-color: #FFD47F;
+}
+
+#p-text-1{
+    text-decoration: underline;
+    background-color: #FFABDC;
+}
+
+#p-text-2{
+    text-decoration: underline;
+    background-color: #FFABDC;
+}
+
+#p-text-3{
+    text-decoration: underline;
+    background-color: #FFABDC;
+}
+
+#b-text-1{
+    text-decoration: underline;
+    background-color: #A5B1FF;
+}
+
+#b-text-2{
+    text-decoration: underline;
+    background-color: #A5B1FF;
+}
+
+#b-text-3{
+    text-decoration: underline;
+    background-color: #A5B1FF;
+}
+
+.small-text{
+    margin: 0 0 0 16px;
+    color: #ddd;
+}
