@@ -2,6 +2,39 @@ body{
     font-family: 'Work Sans', sans-serif;
 }
 
+#test-text-body{
+    margin: 0;
+    padding: 0;
+}
+
+#test-text-p{
+    margin: 0;
+    padding: 0;
+    font-size: 8px;
+    color: #eee;
+}
+
+.small-text-span{
+    word-break: break-all;
+    word-wrap: break-word;
+    transition: all 0.5s ease 0.5s;
+}
+
+.back-link{
+    width: 100%;
+    margin: 20px;
+    text-align: center;
+}
+
+.bg-text-effect-link{
+    text-align: center;
+    margin: 50px 0;
+}
+
+.bg-text-effect-link a{
+    color: #111;
+}
+
 #test-1{
     line-height: 32px;
     display: flex;
